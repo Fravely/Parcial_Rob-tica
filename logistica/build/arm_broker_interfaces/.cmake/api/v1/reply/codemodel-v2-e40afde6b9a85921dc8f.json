@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e6fc0e210f90936e1af4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "arm_broker_interfaces__py",
+					"jsonFile" : "directory-arm_broker_interfaces__py-94a7b41423de33e90594.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jetson/logistica/build/arm_broker_interfaces/arm_broker_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "arm_broker_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arm_broker_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arm_broker_interfaces_egg-c9c4fb8d5c099368eac5.json",
+					"name" : "ament_cmake_python_build_arm_broker_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_arm_broker_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_arm_broker_interfaces-482aac46e66f924b63c3.json",
+					"name" : "ament_cmake_python_symlink_arm_broker_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces-52b59b7667e7900618c9.json",
+					"name" : "arm_broker_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__cpp-331cd53f473e9cf2a6d7.json",
+					"name" : "arm_broker_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "arm_broker_interfaces__py::@cdcc1190dea705fb5684",
+					"jsonFile" : "target-arm_broker_interfaces__py-a7b1f70a0f23dd8870d4.json",
+					"name" : "arm_broker_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_generator_c-1d6ff03ea0b9bd6a8b0a.json",
+					"name" : "arm_broker_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_generator_py-4c9f6406ca7bd9bf59b2.json",
+					"name" : "arm_broker_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_c-935775ba8aab6bd3a252.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_c__pyext-1eff16fe626ffd74cc6a.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_cpp-48f67efe42dfdca3180e.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_fastrtps_c-e9b3814174419ce48f3f.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_fastrtps_c__pyext-9f0e45ea143c9a865e47.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_fastrtps_cpp-fd9ef6c3741df7dfd867.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_introspection_c-85189ece590228441ada.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_introspection_c__pyext-f5348a5c0ee47a0734ab.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces__rosidl_typesupport_introspection_cpp-0e08c720c3f7075dc24a.json",
+					"name" : "arm_broker_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_broker_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_broker_interfaces_uninstall-017aaa3bb9c36853871d.json",
+					"name" : "arm_broker_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bea1d73806b595848097.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jetson/logistica/build/arm_broker_interfaces",
+		"source" : "/home/jetson/logistica/src/arm_broker_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

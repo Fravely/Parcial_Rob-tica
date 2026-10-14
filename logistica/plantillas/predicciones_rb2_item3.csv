@@ -1,0 +1,3 @@
+politica,clientes,n_pedidos,tiempo_estimado_total_s,p95_esperado_s,criterio
+fifo,4,60,,,
+prioridad,4,60,,,

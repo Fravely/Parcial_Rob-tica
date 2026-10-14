@@ -1,0 +1,24 @@
+# DEMOSTRACION EVALUADA: camara + MoveIt2 + brazo real.
+# Usar SOLO despues del diagnostico, de marcar regiones y de previsualizar los planes.
+#   ros2 run arm_broker broker --ros-args --params-file plantillas/item2_fisico.yaml \
+#     -p config_item2:="$(pwd)/plantillas/item2_calibrado.json" \
+#     -p habilitar_pick_place_fisico:=true
+arm_broker:
+  ros__parameters:
+    politica: prioridad
+    tau_envejecimiento_s: 8.0
+    publicar_joint_states: false
+    habilitar_pick_place_simulado: false
+    habilitar_planificacion_pick_place: false
+    habilitar_pick_place_fisico: false      # se enciende en la linea de comandos, a proposito
+    permitir_respaldo_pick_place: false     # la demo evaluada exige fuente=LAYA
+    inventario_pick_place: ["cubo:amarillo", "cubo:azul", "cubo:verde", "cubo:rojo"]
+    zonas_pick_place: ["deposito"]
+    acciones_pick_place: ["recoger", "colocar"]
+    moveit_grupo: arm_group
+    moveit_enlace: 6_Link
+    moveit_marco: base_link
+    moveit_timeout_s: 8.0
+    cola_max: 20
+    evidencias_item2: evidencias/item2
+    archivo_rechazos: evidencias/item2/rechazos.csv

@@ -1,0 +1,9 @@
+fecha,frase,accion,objeto,color,prioridad,permitido,degradada,fuente,motivo,latencia_http_ms,inferencia_ms,resto_http_ms,latencia_servicio_ms
+2026-10-05T12:26:51.239,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (ValueError: url_laya no configurada: usar http://IP_WINDOWS:PUERTO); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,3.649
+2026-10-05T12:27:09.652,rompe el cubo rojo,peligrosa,cubo,rojo,80,False,True,respaldo,modo degradado (ValueError: url_laya no configurada: usar http://IP_WINDOWS:PUERTO); orden negativa o potencialmente peligrosa,-1.0,-1.0,-1.0,2.747
+2026-10-05T12:27:20.157,recoge el avion morado,recoger,ninguno,ninguno,80,False,True,respaldo,modo degradado (ValueError: url_laya no configurada: usar http://IP_WINDOWS:PUERTO); objeto desconocido o no disponible en el inventario,-1.0,-1.0,-1.0,2.796
+2026-10-13T19:29:19.133,recoge el cubo rojo urgente,recoger,cubo,rojo,68,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,227.3436799951014,203.23,24.11367999510142,229.627
+2026-10-13T19:30:55.372,recoge el cubo azul,recoger,cubo,azul,70,False,False,LAYA,LAYA no autoriza (probabilidad sí=0.27),150.45980799914105,134.04,16.419807999141057,152.607
+2026-10-13T19:31:02.669,recoge la botella verde,recoger,ninguno,verde,77,False,False,LAYA,LAYA no autoriza (probabilidad sí=0.14),144.04198400006862,123.42,20.621984000068622,145.371
+2026-10-13T20:37:42.840,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (URLError: <urlopen error [Errno -2] Name or service not known>); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,24.218
+2026-10-13T20:43:22.620,recoge el cubo rojo urgente,recoger,cubo,rojo,68,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,152.59372799482662,125.71,26.88372799482663,155.0

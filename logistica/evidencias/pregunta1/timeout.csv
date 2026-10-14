@@ -1,0 +1,2 @@
+fecha,frase,accion,objeto,color,prioridad,permitido,degradada,fuente,motivo,latencia_http_ms,inferencia_ms,resto_http_ms,latencia_servicio_ms
+2026-10-05T14:11:50.831,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (TimeoutError: LAYA superó timeout_s=2.00); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,2007.347

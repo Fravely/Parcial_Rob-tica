@@ -1,0 +1,9 @@
+fecha,frase,accion,objeto,color,prioridad,permitido,degradada,fuente,motivo,latencia_http_ms,inferencia_ms,resto_http_ms,latencia_servicio_ms
+2026-10-05T13:40:00.651,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,19.684
+2026-10-05T13:47:43.440,recoge el cubo rojo urgente,recoger,cubo,rojo,68,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,194.40620800014585,158.82,35.58620800014586,198.13
+2026-10-05T13:53:03.609,recoge el cubo rojo urgente,recoger,cubo,rojo,68,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,173.8675200031139,136.22,37.6475200031139,176.808
+2026-10-05T14:01:00.692,recoge el cubo rojo urgente,recoger,cubo,rojo,68,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,306.685055984417,133.04,173.64505598441698,308.353
+2026-10-05T14:01:13.797,coloca la botella azul,colocar,botella,azul,70,False,False,LAYA,LAYA no autoriza (probabilidad sí=0.25),339.95123198837973,138.06,201.89123198837973,342.342
+2026-10-05T14:01:20.658,rompe el cubo rojo,peligrosa,cubo,rojo,86,False,False,LAYA,orden negativa o potencialmente peligrosa,155.21747199818492,139.43,15.787471998184913,156.956
+2026-10-05T14:01:26.916,recoge el avion morado,recoger,ninguno,otro,61,False,False,LAYA,objeto desconocido o no disponible en el inventario,151.85961598763242,131.27,20.589615987632413,153.387
+2026-10-05T14:19:55.144,recoge el cubo rojo urgente,recoger,cubo,rojo,68,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,175.19827201613225,148.7,26.498272016132262,178.785

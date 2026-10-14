@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from arm_broker_interfaces/action/MoveArm.action
+// generated code does not contain a copyright notice
+
+
+module arm_broker_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Contrato de la VERSION broker.py aportada inicialmente por el compañero." "\n"
+      "¡NO es intercambiable con el MoveArm.action de ~/rb2_ws que utiliza q_deseado!")
+    struct MoveArm_Goal {
+      sequence<double> joint_positions;
+
+      string client_id;
+
+      uint8 priority;
+    };
+    struct MoveArm_Result {
+      boolean success;
+
+      string message;
+
+      double wait_time_s;
+
+      double exec_time_s;
+    };
+    struct MoveArm_Feedback {
+      string state;
+
+      int32 queue_position;
+
+      double elapsed_s;
+    };
+  };
+};

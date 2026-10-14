@@ -1,0 +1,4 @@
+[console_scripts]
+broker = arm_broker.broker:main
+cliente = arm_broker.cliente:main
+

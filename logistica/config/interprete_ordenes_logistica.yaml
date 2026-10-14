@@ -1,0 +1,15 @@
+interprete_ordenes_logistica:
+  ros__parameters:
+    # El servidor LAYA es HTTP externo; sin URL funciona el respaldo local.
+    url_laya: ""
+    # Tiempo limite en segundos para solicitar LAYA.
+    timeout_s: 2.0
+    # Modelo especifico solo si el servidor lo admite.
+    modelo_laya: ""
+    idioma: "es"
+    # REEMPLAZAR con el inventario real del examen.
+    objetos_disponibles: ["cubo", "botella", "pelota", "caja"]
+    colores_disponibles: ["rojo", "azul", "verde", "amarillo"]
+    confianza_minima: 0.5
+    registro_csv: "/home/jetson/logistica/evidencias/pregunta1/interpretaciones.csv"
+    max_consultas: 4

@@ -1,0 +1,4 @@
+fecha,frase,accion,objeto,color,prioridad,permitido,degradada,fuente,motivo,latencia_http_ms,inferencia_ms,resto_http_ms,latencia_servicio_ms
+2026-10-05T07:52:44.240,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (ValueError: url_laya no configurada: usar http://IP_WINDOWS:PUERTO); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,3.72
+2026-10-05T07:54:49.379,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (ValueError: url_laya no configurada: usar http://IP_WINDOWS:PUERTO); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,2.302
+2026-10-05T08:17:41.500,recoge el cubo rojo urgente,recoger,cubo,rojo,180,True,True,respaldo,modo degradado (ValueError: url_laya no configurada: usar http://IP_WINDOWS:PUERTO); orden autorizable; falta validación física antes del movimiento,-1.0,-1.0,-1.0,2.251

@@ -1,0 +1,3 @@
+/home/jetson/logistica/build/arm_broker_interfaces/rosidl_adapter/arm_broker_interfaces:action/MoveArm.idl
+/home/jetson/logistica/build/arm_broker_interfaces/rosidl_adapter/arm_broker_interfaces:action/PickPlace.idl
+/home/jetson/logistica/build/arm_broker_interfaces/rosidl_adapter/arm_broker_interfaces:msg/QueueState.idl

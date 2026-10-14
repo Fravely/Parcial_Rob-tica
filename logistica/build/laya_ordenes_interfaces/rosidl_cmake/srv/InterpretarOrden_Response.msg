@@ -1,0 +1,12 @@
+
+string accion
+string objeto
+string color
+uint8 prioridad
+bool permitido
+bool degradada
+string fuente
+string motivo
+float64 latencia_http_ms
+float64 inferencia_ms
+float64 resto_http_ms

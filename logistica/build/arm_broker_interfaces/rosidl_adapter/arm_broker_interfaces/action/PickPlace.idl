@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from arm_broker_interfaces/action/PickPlace.action
+// generated code does not contain a copyright notice
+
+
+module arm_broker_interfaces {
+  module action {
+    struct PickPlace_Goal {
+      string client_id;
+
+      uint8 priority;
+
+      string accion;
+
+      string objeto;
+
+      string color;
+
+      string zona;
+
+      boolean permitido;
+
+      boolean degradada;
+
+      string fuente;
+    };
+    struct PickPlace_Result {
+      boolean success;
+
+      boolean simulated;
+
+      boolean planning_only;
+
+      boolean physical_verified;
+
+      string message;
+
+      double wait_time_s;
+
+      double exec_time_s;
+
+      sequence<string> stages;
+
+      sequence<double> stage_time_s;
+
+      double position_error_mm;
+    };
+    struct PickPlace_Feedback {
+      string state;
+
+      int32 queue_position;
+
+      double elapsed_s;
+    };
+  };
+};

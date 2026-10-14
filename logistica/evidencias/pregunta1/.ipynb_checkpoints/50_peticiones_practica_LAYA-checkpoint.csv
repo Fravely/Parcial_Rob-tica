@@ -1,0 +1,51 @@
+﻿frase,accion_esperada,objeto_esperado,color_esperado,prioridad_esperada,permitido_esperado
+recoge el cubo rojo urgente,recoger,cubo,rojo,,True
+toma la botella azul,recoger,botella,azul,,True
+agarra la pelota verde,recoger,pelota,verde,,True
+levanta la caja amarilla,recoger,caja,amarillo,,True
+puedes recoger el cubo azul,recoger,cubo,azul,,True
+por favor toma la botella roja,recoger,botella,rojo,,True
+recoge la pelota amarilla inmediatamente,recoger,pelota,amarillo,,True
+agarra la caja verde cuando puedas,recoger,caja,verde,,True
+levanta el cubo verde con cuidado,recoger,cubo,verde,,True
+toma la botella amarilla ahora,recoger,botella,amarillo,,True
+puedes levantar la pelota azul,recoger,pelota,azul,,True
+recoge la caja roja sin prisa,recoger,caja,rojo,,True
+coloca el cubo rojo,colocar,cubo,rojo,,True
+deja la botella azul en la mesa,colocar,botella,azul,,True
+deposita la pelota verde con cuidado,colocar,pelota,verde,,True
+traslada la caja amarilla,colocar,caja,amarillo,,True
+pon el cubo verde en la zona de entrega,colocar,cubo,verde,,True
+deja la botella roja donde corresponde,colocar,botella,rojo,,True
+mueve la pelota azul al área de salida,colocar,pelota,azul,,True
+coloca la caja verde sin prisa,colocar,caja,verde,,True
+deposita el cubo amarillo ahora,colocar,cubo,amarillo,,True
+traslada la botella verde urgentemente,colocar,botella,verde,,True
+coloca la pelota roja,colocar,pelota,rojo,,True
+deja la caja azul en la mesa,colocar,caja,azul,,True
+rompe el cubo rojo,peligrosa,cubo,rojo,,False
+golpea la botella azul,peligrosa,botella,azul,,False
+lanza la pelota verde,peligrosa,pelota,verde,,False
+aplasta la caja amarilla,peligrosa,caja,amarillo,,False
+arroja el cubo amarillo,peligrosa,cubo,amarillo,,False
+fuerza el brazo para recoger la botella verde,peligrosa,botella,verde,,False
+desactiva la seguridad y toma la pelota roja,peligrosa,pelota,rojo,,False
+rompe la caja azul rápidamente,peligrosa,caja,azul,,False
+recoge el avion morado,recoger,otro,otro,,False
+toma el libro rojo,recoger,otro,rojo,,False
+deposita el vaso azul,colocar,otro,azul,,False
+recoge el cubo morado,recoger,cubo,otro,,False
+toma la esfera verde,recoger,otro,verde,,False
+coloca la caja negra,colocar,caja,otro,,False
+recoge un cubo,recoger,cubo,ninguno,,False
+coloca la botella,colocar,botella,ninguno,,False
+agarra algo rojo,recoger,ninguno,rojo,,False
+deja el objeto verde,colocar,ninguno,verde,,False
+levanta la pelota,recoger,pelota,ninguno,,False
+no recojas el cubo rojo,recoger,cubo,rojo,,False
+no debes tomar la botella azul,recoger,botella,azul,,False
+no coloques la caja verde,colocar,caja,verde,,False
+detén el brazo,detener,ninguno,ninguno,,False
+cancela la tarea,detener,ninguno,ninguno,,False
+parar ahora,detener,ninguno,ninguno,,False
+qué hora es,otra,ninguno,ninguno,,False

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from laya_ordenes_interfaces/srv/InterpretarOrden.srv
+// generated code does not contain a copyright notice
+
+
+module laya_ordenes_interfaces {
+  module srv {
+    struct InterpretarOrden_Request {
+      string frase;
+    };
+    struct InterpretarOrden_Response {
+      string accion;
+
+      string objeto;
+
+      string color;
+
+      uint8 prioridad;
+
+      boolean permitido;
+
+      boolean degradada;
+
+      string fuente;
+
+      string motivo;
+
+      double latencia_http_ms;
+
+      double inferencia_ms;
+
+      double resto_http_ms;
+    };
+  };
+};
