@@ -1,4 +1,0 @@
-hora,cliente,motivo,q_pedida_rad
-2026-10-15T15:42:25,integrante2,"brazo enclavado por un fallo de hardware anterior (el puerto /dev/ttyUSB0 ya esta ocupado: detén el otro broker, el driver y los notebooks (fuser -v /dev/ttyUSB0)); revisa el montaje y reinicia el broker",
-2026-10-15T15:42:26,integrante3,"brazo enclavado por un fallo de hardware anterior (el puerto /dev/ttyUSB0 ya esta ocupado: detén el otro broker, el driver y los notebooks (fuser -v /dev/ttyUSB0)); revisa el montaje y reinicia el broker",
-2026-10-15T15:42:26,integrante4,"brazo enclavado por un fallo de hardware anterior (el puerto /dev/ttyUSB0 ya esta ocupado: detén el otro broker, el driver y los notebooks (fuser -v /dev/ttyUSB0)); revisa el montaje y reinicia el broker",
