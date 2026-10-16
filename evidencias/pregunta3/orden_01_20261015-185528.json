@@ -1,0 +1,9 @@
+{
+  "audio": "orden_01_20261015-185528.wav",
+  "transcripcion": "JetCobot recoge cubo rojo",
+  "modo": "voz",
+  "modelo": "gemini-3.5-flash-lite",
+  "motivo_modo_texto": "",
+  "transcripcion_ms": 2386.3,
+  "fecha": "2026-10-15T18:55:30.940"
+}

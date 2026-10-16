@@ -1,8 +1,0 @@
-{
-  "package_name": "arm_broker_interfaces",
-  "non_idl_tuples": [
-    "/home/jetson/logistica/src/arm_broker_interfaces:action/MoveArm.action",
-    "/home/jetson/logistica/src/arm_broker_interfaces:action/PickPlace.action",
-    "/home/jetson/logistica/src/arm_broker_interfaces:msg/QueueState.msg"
-  ]
-}

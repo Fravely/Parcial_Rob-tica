@@ -1,0 +1,15 @@
+# Generados por colcon (se recompilan en el Jetson)
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Claves: NUNCA en el repositorio (el examen descuenta puntos)
+.clave_gemini
+*.env
+.env*
+# Configuracion local de MoveIt generada en el Jetson (depende del URDF del equipo)
+config/moveit_local.yaml
+config/moveit_local.yaml.tmp
+config/respaldo_moveit_*/

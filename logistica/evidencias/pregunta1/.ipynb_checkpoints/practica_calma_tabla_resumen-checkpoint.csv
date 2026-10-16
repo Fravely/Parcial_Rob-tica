@@ -1,7 +1,0 @@
-modo,metrica,n,mediana_ms,p95_ms,aciertos,exactitud_pct
-calma,latencia_servicio_cliente_ms,50,137.195,190.364,,
-calma,latencia_http_ms,50,132.981,186.303,,
-calma,inferencia_ms,50,120.945,152.62,,
-calma,resto_http_ms,50,10.968,20.949,,
-calma,exactitud_laya_real_4campos,29,,,11,37.93
-calma,exactitud_respaldo_4campos,50,,,30,60.0

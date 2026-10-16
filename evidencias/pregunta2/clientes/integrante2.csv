@@ -1,0 +1,6 @@
+fecha,cliente,frase,accion,objeto,color,prioridad,permitido,degradada,fuente,motivo,decision_ms,estado,wait_time_s,exec_time_s,mensaje_broker
+2026-10-15T15:42:23.562,integrante2,recoge el cubo azul urgente,recoger,cubo,azul,180,True,True,respaldo,modo degradado (TimeoutError: LAYA superó timeout_s=2.00); orden autorizable; falta validación física antes del movimiento,2009.0,rechazada_por_broker,,,
+2026-10-15T17:26:21.808,integrante2,recoge el cubo azul urgent,recoger,cubo,azul,65,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,258.3,completada,0.008,133.046,CICLO COMPLETADO: recogida y deposito; sin verificacion visual final
+2026-10-15T17:32:43.199,integrante2,recoge el cubo azul urgente,recoger,cubo,azul,65,False,False,LAYA,LAYA no autoriza (probabilidad sí=0.43 < umbral 0.60),212.5,rechazada_antes_de_encolar,,,
+2026-10-15T17:40:58.347,integrante2,recoge el cubo azul urgente,recoger,cubo,azul,65,False,False,LAYA,LAYA no autoriza (probabilidad sí=0.43 < umbral 0.60),225.2,rechazada_antes_de_encolar,,,
+2026-10-15T17:49:45.439,integrante2,recoge el cubo azul urgente,recoger,cubo,azul,65,True,False,LAYA,orden autorizable; falta validación física antes del movimiento,153.9,completada,141.086,133.575,CICLO COMPLETADO: recogida y deposito; sin verificacion visual final

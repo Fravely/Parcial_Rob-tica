@@ -1,6 +1,0 @@
-{
-  "package_name": "laya_ordenes_interfaces",
-  "non_idl_tuples": [
-    "/home/jetson/logistica/src/laya_ordenes_interfaces:srv/InterpretarOrden.srv"
-  ]
-}

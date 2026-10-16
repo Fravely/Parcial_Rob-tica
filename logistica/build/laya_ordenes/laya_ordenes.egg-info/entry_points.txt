@@ -1,7 +1,0 @@
-[console_scripts]
-interfaz_ordenes = laya_ordenes.interfaz_ordenes:main
-interprete_ordenes = laya_ordenes.node:main
-orden_a_broker = laya_ordenes.orden_a_broker:main
-orden_a_recogida = laya_ordenes.orden_a_recogida:main
-transcriptor_voz = laya_ordenes.transcriptor_voz:main
-

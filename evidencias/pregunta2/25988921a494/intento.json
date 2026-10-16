@@ -1,0 +1,231 @@
+{
+  "goal_id": "25988921a494",
+  "fecha": "2026-10-15T17:17:23",
+  "cliente": "integrante1",
+  "accion": "recoger",
+  "color": "rojo",
+  "zona": "deposito",
+  "prioridad": 68,
+  "fuente": "LAYA",
+  "degradada": false,
+  "stages": [
+    "PLAN_ESCANEO",
+    "MOVER_ESCANEO",
+    "DETECTAR_COLOR",
+    "ABRIR_PINZA",
+    "PLAN_AGARRE",
+    "MOVER_AGARRE",
+    "CERRAR_PINZA",
+    "PLAN_LEVANTAR_A_ESCANEO",
+    "MOVER_LEVANTAR_A_ESCANEO",
+    "PLAN_DEPOSITO",
+    "MOVER_DEPOSITO",
+    "SOLTAR",
+    "PLAN_REGRESAR_A_ESCANEO",
+    "MOVER_REGRESAR_A_ESCANEO"
+  ],
+  "stage_time_s": [
+    1.1033637759974226,
+    30.71445126400795,
+    2.361046720005106,
+    0.5326798080059234,
+    1.0986352000036277,
+    21.53673222399084,
+    1.1925490879948484,
+    1.0853993920027278,
+    27.968437728006393,
+    1.1439113920059754,
+    30.999341728005675,
+    1.1856453439977486,
+    1.1056597440037876,
+    30.721534431999316
+  ],
+  "physical_verified": false,
+  "position_error_mm": 4.4950834619120394,
+  "error_agarre_mm": 10.570518141093894,
+  "planes": [
+    {
+      "segmento": "ESCANEO",
+      "stages": [
+        "IK_MOVEIT2_SOLO_PLAN",
+        "TRAYECTORIA_MOVEIT2_SOLO_PLAN"
+      ],
+      "stage_time_s": [
+        0.00413440000556875,
+        1.0928610880073393
+      ]
+    },
+    {
+      "segmento": "AGARRE",
+      "stages": [
+        "IK_MOVEIT2_SOLO_PLAN",
+        "TRAYECTORIA_MOVEIT2_SOLO_PLAN"
+      ],
+      "stage_time_s": [
+        0.005543135994230397,
+        1.0853878719935892
+      ]
+    },
+    {
+      "segmento": "LEVANTAR_A_ESCANEO",
+      "stages": [
+        "IK_MOVEIT2_SOLO_PLAN",
+        "TRAYECTORIA_MOVEIT2_SOLO_PLAN"
+      ],
+      "stage_time_s": [
+        0.005504127999302,
+        1.0722924800065812
+      ]
+    },
+    {
+      "segmento": "DEPOSITO",
+      "stages": [
+        "IK_MOVEIT2_SOLO_PLAN",
+        "TRAYECTORIA_MOVEIT2_SOLO_PLAN"
+      ],
+      "stage_time_s": [
+        0.004547296004602686,
+        1.1326151359971846
+      ]
+    },
+    {
+      "segmento": "REGRESAR_A_ESCANEO",
+      "stages": [
+        "IK_MOVEIT2_SOLO_PLAN",
+        "TRAYECTORIA_MOVEIT2_SOLO_PLAN"
+      ],
+      "stage_time_s": [
+        0.006368992006173357,
+        1.091032575990539
+      ]
+    }
+  ],
+  "deteccion_color": {
+    "color": "rojo",
+    "detectado": true,
+    "posicion": "superior_izquierda",
+    "posiciones": {
+      "superior_izquierda": {
+        "color": "rojo",
+        "areas_px": {
+          "amarillo": 3.0,
+          "azul": 0.0,
+          "verde": 0.0,
+          "rojo": 4096.0
+        },
+        "roi_px": [
+          108,
+          0,
+          313,
+          144
+        ]
+      },
+      "superior_derecha": {
+        "color": "amarillo",
+        "areas_px": {
+          "amarillo": 7466.5,
+          "azul": 0.0,
+          "verde": 0.0,
+          "rojo": 111.0
+        },
+        "roi_px": [
+          505,
+          0,
+          640,
+          206
+        ]
+      },
+      "inferior_izquierda": {
+        "color": "verde",
+        "areas_px": {
+          "amarillo": 1.0,
+          "azul": 0.0,
+          "verde": 13380.0,
+          "rojo": 9.5
+        },
+        "roi_px": [
+          38,
+          230,
+          281,
+          441
+        ]
+      },
+      "inferior_derecha": {
+        "color": "azul",
+        "areas_px": {
+          "amarillo": 3.0,
+          "azul": 15312.0,
+          "verde": 0.0,
+          "rojo": 152.0
+        },
+        "roi_px": [
+          467,
+          316,
+          640,
+          480
+        ]
+      }
+    },
+    "motivo": "",
+    "area_px": 4096.0
+  },
+  "posicion_recogida": "superior_izquierda",
+  "q_recogida_seleccionada_rad": [
+    0.5235987755982988,
+    -2.0420352248333655,
+    1.4835298641951802,
+    -0.8028514559173916,
+    0.05235987755982989,
+    -0.47123889803846897
+  ],
+  "q_agarre_rad": [
+    0.5077162794051505,
+    -2.053903463746927,
+    1.4526375364348805,
+    -0.8360127117052838,
+    0.03979350694547071,
+    -0.48153634062523554
+  ],
+  "xyz_agarre_solicitada_mm": [
+    232.675691445053,
+    61.69388948993351,
+    129.47814290403113
+  ],
+  "xyz_agarre_alcanzada_mm": [
+    233.976661171703,
+    57.47473373660996,
+    119.87387009081242
+  ],
+  "pinza_puede_contener_cubo": false,
+  "q_solicitada_rad": [
+    1.8325957145940461,
+    -2.199114857512855,
+    2.5132741228718345,
+    -1.710422666954443,
+    0.03490658503988659,
+    -0.5235987755982988
+  ],
+  "q_alcanzada_rad": [
+    1.8146188232985043,
+    -2.2057471086704337,
+    2.494250034025096,
+    -1.7271778277735883,
+    0.02757620218151041,
+    -0.5291838292046808
+  ],
+  "xyz_solicitada_mm": [
+    24.765673297502424,
+    153.97117107029663,
+    121.44399074526615
+  ],
+  "xyz_alcanzada_mm": [
+    27.809384625703764,
+    153.87812310256564,
+    118.13749127364437
+  ],
+  "interpretacion_error": "Desviacion articular expresada por FK RB2; no mide el cubo.",
+  "success": true,
+  "message": "CICLO COMPLETADO: recogida y deposito; sin verificacion visual final",
+  "wait_time_s": 0.003379344940185547,
+  "exec_time_s": 153.59249174399883
+}

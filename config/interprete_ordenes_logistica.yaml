@@ -1,0 +1,20 @@
+# Parametros del nodo interprete_ordenes (servicio /interpretar_orden).
+# Lo carga scripts/interprete.sh; la URL, el preset, el timeout y el umbral se pasan
+# como -p desde ese script (ganan sobre este archivo).
+/**:
+  ros__parameters:
+    # El servidor LAYA es HTTP externo (PC Windows del laboratorio); sin URL funciona el respaldo.
+    url_laya: ""
+    # Tiempo limite en segundos para la respuesta de LAYA (requisito 2 de la Pregunta 1).
+    timeout_s: 2.0
+    # Preset que informa el docente (en la practica: multilingual).
+    modelo_laya: ""
+    idioma: "es"
+    # Inventario REAL de la mesa: cuatro cubos de colores. Cualquier otro objeto se rechaza.
+    objetos_disponibles: ["cubo"]
+    colores_disponibles: ["rojo", "azul", "verde", "amarillo"]
+    confianza_minima: 0.5
+    # Probabilidad minima del "si" de LAYA (pregunta noul) para permitir la orden.
+    umbral_autorizacion: 0.60
+    registro_csv: "evidencias/pregunta1/interpretaciones.csv"
+    max_consultas: 4

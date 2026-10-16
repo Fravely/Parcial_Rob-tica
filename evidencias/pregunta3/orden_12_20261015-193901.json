@@ -1,0 +1,9 @@
+{
+  "audio": "orden_12_20261015-193901.wav",
+  "transcripcion": "q",
+  "modo": "texto",
+  "modelo": "",
+  "motivo_modo_texto": "TimeoutError: Google no respondió en 6.0 s",
+  "transcripcion_ms": "",
+  "fecha": "2026-10-15T19:39:19.923"
+}
